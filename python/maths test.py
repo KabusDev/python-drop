@@ -54,7 +54,7 @@ print("Well done", user, "you scored", quizscore, "/10")
 
 #saving stuff
 
-savedata = open('test123123123.txt','a')
+savedata = open('test_results.txt','a')
 data = user, uclass, quizscore #string needed
 print ("Saving your work.")
 savedata.write(str(data))#prints created string of user inputted variables
